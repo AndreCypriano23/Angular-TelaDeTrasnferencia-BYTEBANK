@@ -12,9 +12,4 @@ export class AppComponent {
   //Injeção de Dependência
   constructor(private service: TransferenciaService){}
 
-  transferir($event){
-      this.service.adicionar($event);
-  }
-
-
 }
